@@ -85,7 +85,15 @@ color: #4d5ae5;
     background-color: #404BBF
 }
 
-.section-two .ul.sec.two
+.section-two .two-sec-two {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
 
 .section-two .threethree-sec-two {  
 font-family: "Roboto", sans-serif;
