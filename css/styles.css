@@ -35,6 +35,7 @@ color: #4d5ae5;
 
 .header-address .page-address .link {
     font-family: "Roboto", sans-serif;
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
@@ -87,9 +88,9 @@ color: #4d5ae5;
 
 .section-two .two-sec-two {
     font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 111%;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
@@ -112,9 +113,12 @@ font-family: "Roboto", sans-serif;
     letter-spacing: 0.02em;
     color: #434455;
 }
-
+.section-three .ul-sec-three {
+    background-color: #FFFFFF
+}
 .section-three .two {
     font-family: "Roboto", sans-serif;
+    text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
     line-height: 111%;
@@ -148,6 +152,7 @@ font-family: "Roboto", sans-serif;
 }
 .section-four .two{
     font-family: "Roboto", sans-serif;
+    text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
     line-height: 111%;
