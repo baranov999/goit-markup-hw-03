@@ -41,15 +41,19 @@ color: #4d5ae5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.page-nav .link:hover,:active {
+.page-nav .link:focus,
+.page-nav .link:hover {
     color: #404bbf
 }
 
-.page-address .link:hover,:active {
+.page-address .link:focus,
+.page-address .link:hover {
     color:#404bbf
 }
-
-.section1 .h1 {
+.section1 {
+    background-color: #2e2f42;
+}
+.section1 .one {
     font-family: "Roboto", sans-serif;
     width: 1440px;
     height: 600px;
@@ -73,9 +77,15 @@ color: #4d5ae5;
     padding: 16px 32px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
+    cursor: pointer;
 }
 
-.section2 .h3 {
+.section1  .button:hover,
+.section1  .button:focus {
+    background-color: #404BBF
+}
+
+.section2 .three {  
 font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -84,7 +94,7 @@ font-family: "Roboto", sans-serif;
     color: #2e2f42;
 }
 
-.section2 .p {
+.section2 .ppp {
 font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -93,7 +103,7 @@ font-family: "Roboto", sans-serif;
     color: #434455;
 }
 
-.section3 .h2 {
+.section3 .two {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
@@ -103,7 +113,7 @@ font-family: "Roboto", sans-serif;
     color: #2e2f42;
 }
 
-.section3 .h3 {
+.section3 .three {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -113,7 +123,7 @@ font-family: "Roboto", sans-serif;
     color: #2e2f42;
 }
 
-.section3 .p {
+.section3 .ppp {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -126,7 +136,7 @@ font-family: "Roboto", sans-serif;
 .section3 {
     background: #f4f4fd;
 }
-.section4 .h2{
+.section4 .two{
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
@@ -136,7 +146,7 @@ font-family: "Roboto", sans-serif;
     color: #2e2f42;
 }
 
-.section4 .h3{
+.section4 .three{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -145,7 +155,7 @@ font-family: "Roboto", sans-serif;
     color: #2e2f42;
 }
 
-.section4 .p{
+.section4 .ppp {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -158,7 +168,7 @@ font-family: "Roboto", sans-serif;
     height: 312px;
     background: #2e2f42;
 }
-.footer .p {
+.footer .ppp {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
