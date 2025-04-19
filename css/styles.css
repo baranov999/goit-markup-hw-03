@@ -35,7 +35,7 @@ color: #4d5ae5;
 
 .header-address .page-address .link {
     font-style: normal;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto";
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
@@ -113,7 +113,10 @@ font-family: "Roboto", sans-serif;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.section-three .ul-sec-three {
+.li-sec-three {
+    background-color: #FFFFFF;
+}
+.ul-sec-three {
     background-color: #FFFFFF
 }
 .section-three .two {
@@ -148,7 +151,7 @@ font-family: "Roboto", sans-serif;
 
 }
 .section-three {
-    background: #FFFFFF;
+    background: #F4F4FD;
 }
 .section-four .two{
     font-family: "Roboto", sans-serif;
