@@ -33,13 +33,16 @@
         font-style: normal;
     }
 
-    .header-address .page-address .link {
+    .header-address .page-address  {
         font-style: normal;
         font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-size: 16px;
         line-height: 150%;
         letter-spacing: 0.02em;
+        color: #434455;
+    }
+    .header-address .page-address .link {
         color: #434455;
     }
     .page-nav .link:focus,
